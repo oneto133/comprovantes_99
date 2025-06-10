@@ -1,5 +1,5 @@
 ## Resumo
-* Essa é uma aplicação pensada a partir da nescessidade de preeencher repetidos dados no excel e informá-los à empresa em que trabalho.
+* Essa é uma aplicação pensada a partir da necessidade de preeencher repetidos dados no excel e informá-los à empresa em que trabalho.
 
   O transporte para a minha casa é feito por transporte por aplicativos, a AGl Brasil é quem paga esses valores quando os comprovantes são apresentados, afim de facilitar a coleta de dados pelo RH, eu decidi criar a tabela e jogar os valores para um melhor entendimento, já que se supõe que isso teria de ser feito de uma forma ou de outra, a tabela foi organizada da seguinte forma:
 <table>
@@ -37,7 +37,7 @@ Os comprovantes gerados no aplicativo 99 são enviado ao meu email em formato HT
 
 # Introdução
 
-#### *Os dados contidos aqui nesse repositório foram verificados e não há a nescessidade de cuidado para possíveis vazamentos*
+#### *Os dados contidos aqui nesse repositório foram verificados e não há a necessidade de cuidado para possíveis vazamentos*
 
 * Quando enviados ao meu e-mail, o download ainda é feita de maneira manual, logo mais atualizarei essa parte da aplicação.
 
