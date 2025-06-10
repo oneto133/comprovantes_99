@@ -33,9 +33,18 @@
   </tbody>
 </table>
 
-Os comprovante gerado no aplicativo 99 são enviado ao meu email em formato HTML, para facilitar a coleta de dados foi desenvolvido essa aplicação.
+Os comprovantes gerados no aplicativo 99 são enviado ao meu email em formato HTML, para facilitar a coleta de dados foi desenvolvido essa aplicação.
 
 # Introdução
 
+#### *Os dados contidos aqui nesse repositório foram verificados e não há a nescessidade de cuidado para possíveis vazamentos*
 
+* Quando enviados ao meu e-mail, o download ainda é feita de maneira manual, logo mais atualizarei essa parte da aplicação.
 
+```
+Clone este repositório e instale as dependencias -> requiriments.txt
+```
+
+# main.py
+
+No arquivo principal definimos a classe main, onde teremos as funções `lerhtml`, `data`, `valor`, `origem`, `destino`, `método` e `categoria`, cada uma dessas funções tem a tarefa de entrar na raiz do html e buscar seus dados relativamente.
