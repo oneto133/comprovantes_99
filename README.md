@@ -41,9 +41,8 @@ Os comprovantes gerados no aplicativo 99 são enviado ao meu email em formato HT
 
 * Quando enviados ao meu e-mail, o download ainda é feita de maneira manual, logo mais atualizarei essa parte da aplicação.
 
-```
-Clone este repositório e instale as dependencias -> requiriments.txt
-```
+Clone este repositório, no bash instale as dependencias -> ```pip install requiriments.txt```
+
 
 # main.py
 
