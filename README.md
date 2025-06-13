@@ -1,7 +1,9 @@
 ## Resumo
-* Essa é uma aplicação pensada a partir da necessidade de preeencher repetidos dados no excel e informá-los à empresa em que trabalho.
+* Essa é uma aplicação pensada a partir da necessidade de preeencher repetidos dados no excel e informá-los ao RH da empresa [AGL Brasil](https://www.aglbrasil.com/).
 
-  O transporte para a minha casa é feito por transporte por aplicativos, a AGl Brasil é quem paga esses valores quando os comprovantes são apresentados, afim de facilitar a coleta de dados pelo RH, eu decidi criar a tabela e jogar os valores para um melhor entendimento, já que se supõe que isso teria de ser feito de uma forma ou de outra, a tabela foi organizada da seguinte forma:
+  O transporte para a casa de funcionário é feito atráves de transporte por aplicativos, a [AGl Brasil](https://www.aglbrasil.com/) é quem paga esses valores quando apresentados os comprovantes. A fim de facilitar a coleta de dados pelo RH, a ideia de um desse funcionários foi criar uma tabela no excel e inserir os valores facilitando assim a coleta de dados por parte do setor de recursos humanos, partindo do pre-suposto que de alguma maneira alguém precisaria coletar esse dados para registro. A tabela foi organizada da seguinte forma:
+
+
 <table>
   <thead>
     <tr>
@@ -33,11 +35,12 @@
   </tbody>
 </table>
 
-Os comprovantes gerados no aplicativo 99 são enviado ao meu email em formato HTML, para facilitar a coleta de dados foi desenvolvido essa aplicação.
+Os comprovantes gerados no aplicativo 99 são enviado ao e-mail do solicitante em formato HTML, a coleta de dados entao foi feita usando a linguagem python com o framework `bs4`.
 
 # Introdução
 
-#### *Os dados contidos aqui nesse repositório foram verificados e não há a necessidade de cuidado para possíveis vazamentos*
+[!IMPORTANT]
+#### *Os dados contidos nesse repositório foram verificados e não há a necessidade de cuidado para possíveis vazamentos*
 
 * Quando enviados ao meu e-mail, o download ainda é feita de maneira manual, logo mais atualizarei essa parte da aplicação.
 
@@ -50,3 +53,4 @@ pip install requiriments.txt
 # main.py
 
 No arquivo principal definimos a classe main, onde teremos as funções `lerhtml`, `data`, `valor`, `origem`, `destino`, `método` e `categoria`, cada uma dessas funções tem a tarefa de entrar na raiz do html e buscar seus dados relativamente.
+
