@@ -6,7 +6,7 @@ class main:
         pass
 
     def programa(self, data, origem, destino, metodo, categoria, valor):
-        arquivo = r"C:\Users\rodri\OneDrive\transporteAGL.xlsx"
+        arquivo = r"xlsx/TransporteAGL.xlsx"
         df = pd.read_csv(r"csv/indice_nota.csv")
         linha_destino = int(df.columns[0]) #Normalmente as linhas dentro do csv estão em strings
         coluna_destino = 1
